@@ -1,43 +1,43 @@
-.svg-inline--fa .fa-primary {
-    fill: var(--fa-primary-color, black); /* Applies primary color */
-}
-
-.svg-inline--fa .fa-secondary {
-    fill: var(--fa-secondary-color, currentColor); /* Applies secondary color */
-}
-
-.svg-inline--fa mask .fa-primary,
-.svg-inline--fa mask .fa-secondary {
-    fill: black; /* Ensures proper masking effect */
-}
+:root {
+    --primary-color : #333;
+    --secondary-color : #f2f2f2;
+    --accent-color : #ff6600;
+    }
+    main{
+        max-width: 840px;
+    }
 h1 {
     color: rgb(0, 90, 139);
 }
 
 nav {
-    background-color: darkblue;
+    background-color: rgb(51, 0, 139);
     padding: 10px;
     display: block;
     
 }
 
 nav a {
-    color: white;
-    display: block;
+    color:#ffffff ;
+    display: inline;
     padding: 20px;
 }
 
-
-
-
+main img {
+   
+    width: 150px;
+    margin: 0 auto; 
+    height: auto;
+    
+  }
 
 
 img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid #000000;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px #808080;
 }
 
 p {
@@ -50,7 +50,7 @@ aside {
     border:1px solid rgba(0,0,0, 0.2) ;
     padding: 1em;
     background-color: #eee;
-    color: gray;
+    color: #808080;
     text-align: center;
 
 }
