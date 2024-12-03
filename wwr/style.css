@@ -1,0 +1,72 @@
+:root {
+    --primary-color: #333;
+    --secondary-color: #f2f2f2;
+    --accent-color: #ff6600;
+  }
+  
+  .svg-inline--fa .fa-primary {
+    fill: var(--fa-primary-color, black); /* Applies primary color */
+}
+
+.svg-inline--fa .fa-secondary {
+    fill: var(--fa-secondary-color, currentColor); /* Applies secondary color */
+}
+
+.svg-inline--fa mask .fa-primary,
+.svg-inline--fa mask .fa-secondary {
+    fill: black; /* Ensures proper masking effect */
+}
+h1 {
+    color: rgb(0, 90, 139);
+}
+
+nav {
+    background-color: darkblue;
+    padding: 10px;
+    display: block;
+    
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 10px;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+p {
+    padding: 0;
+}
+
+aside {
+    width: 20em;
+    margin:1em ;
+    border:1px solid rgba(0,0,0, 0.2) ;
+    padding: 1em;
+    background-color: #eee;
+    color: gray;
+    text-align: center;
+
+}
+
+aside img{
+    width: 200px;
+    height: auto;
+
+}
+
+
+footer{
+    margin-top: 1em;
+    border-top: 1px solid #000;
+    text-align: center;
+}
+
+
