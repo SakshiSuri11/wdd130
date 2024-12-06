@@ -21,7 +21,7 @@
   /* Headings */
   h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color);
-    margin: 0.5em 0;
+    margin: 0.7em 2;
   }
   
   /* Paragraph styling */
@@ -38,35 +38,42 @@
   }
   
   .hero img {
-    width: 100%; /* Relative width */
-    display: block; /* Block-level to fill the container */
+    position: absolute;
+    /*width: 100%; /* Relative width */
+    /*height:auto;*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+   
   }
   
   .hero h1 {
     position: absolute;
-    top: 20%;
-    left: 10%;
+    top: 50%;
+    left: 50%;
     color: white;
-    font-size: 2.5rem;
+    font-size: 3rem;
     text-align: center;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
   }
   
   .hero article {
     position: absolute;
-    top: 50%;
-    left: 10%;
+    top:100%;
+    left: 20%;
     background-color: var(--hero-overlay-color);
     color: white;
     padding: 1em;
-    max-width: 400px;
+    max-width: 300px;
     opacity: 0.9;
   }
   
   .hero article img {
-    float: right;
-    margin-left: 1em;
-    width: 150px;
+    float:left;
+    margin-left: 10em;
+    width: 100px;
+  
   }
   
   /* Social media image links */
