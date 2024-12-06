@@ -1,4 +1,4 @@
-/* Root pseudo-class selector for defining color scheme variables */
+Root pseudo-class selector for defining color scheme variables */
 :root {
     --primary-color: #004d99;   /* Dark Blue */
     --secondary-color: #ffcc00; /* Golden Yellow */
@@ -30,16 +30,18 @@
     line-height: 1.6;
     margin: 0.5em 0;
   }
-  
+
+ 
   /* Hero section */
   .hero {
     position: relative;
+
     
   }
   
-  .hero img {
+  .hero-img {
     position: absolute;
-    /*width: 100%; /* Relative width */
+    width: 100%; /* Relative width */
     /*height:auto;*/
     top: 0;
     left: 0;
@@ -50,8 +52,9 @@
   
   .hero h1 {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    background: yellow;
+    top: 0%;
+    left:10%;
     color: white;
     font-size: 3rem;
     text-align: center;
@@ -60,36 +63,56 @@
   
   .hero article {
     position: absolute;
-    top:100%;
-    left: 20%;
+    top:70px;
+    left: 20px;
     background-color: var(--hero-overlay-color);
-    color: white;
-    padding: 1em;
-    max-width: 300px;
+    color: red;
+    padding: 5em;
     opacity: 0.9;
+    
   }
   
   .hero article img {
-    float:left;
-    margin-left: 10em;
-    width: 100px;
+    position: absolute;
+    background-color:white;
+    float:right;  
+    align-items: 100em; 
+    top: 30%;
+    left: 350%;
+    width: 100px; 
+    height:40px;
+    opacity: 0.9;
   
+  }
+  .hero article p{
+    position: absolute;
+    top:15%;
+    left:0%;
+    width:1000x
+    
   }
   
   /* Social media image links */
   .social-media a img {
     text-decoration: none;
     border: none; /* Ensures no border around images */
+    text-decoration-color:#004d99 ;
+    text-decoration-style:solid;
+    text-decoration-thickness:double;
   }
   
   /* Removing underline from only social media links */
   .social-media a {
     text-decoration: none;
+   
   }
   
   /* Add hover effect for navigation links */
-  nav a:hover {
-    text-decoration: underline;
+  nav a:hover { 
+  text-decoration: underline; /* Add underline on hover */
+  text-decoration-color: #004d99; /* Set underline color */
+  text-decoration-style: solid; /* Set underline style */
+  text-decoration-thickness: 2px;
   }
   
   /* Ensures all images fit within their containers */
